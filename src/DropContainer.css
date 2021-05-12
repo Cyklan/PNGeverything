@@ -1,0 +1,8 @@
+.dropcontainer {
+  border: dashed 3px var(--purple);
+  width: 60vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

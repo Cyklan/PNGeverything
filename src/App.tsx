@@ -1,23 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { DropContainer } from './DropContainer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        <div className="title">
+          <h1>ALL2PNG</h1>
+        </div>
+        <p className="explanation">
+          ALL2PNG is a file converter that lets you convert any single file into a PNG and back!<br />
+          Uploading anything but a PNG file will transform it into a png file, uploading a PNG file will try to unscramble the PNG file back into what it originally was.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="generate">
+          <DropContainer />
+          {/* <input type="file" /> */}
+        </div>
       </header>
     </div>
   );

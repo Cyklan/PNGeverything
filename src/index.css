@@ -1,13 +1,28 @@
+:root {
+  --purple: #74569b;
+  --green: #96fbc7;
+  --yellow: #f7ffae;
+  --pink: #ffb3cb;
+  --light-purple: #d8bfd8;
+}
+
+@font-face {
+  font-family: "kenney mini";
+  src: url("fonts/kmw.woff2") format("woff2");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "kenney mini",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+input {
+  font-family: "kenney mini", sans-serif;
+  font-size: 24px;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
