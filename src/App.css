@@ -22,6 +22,9 @@
 .title {
   flex: 1;
 }
+.title > h1 {
+  margin-bottom: 0;
+}
 
 .explanation {
   flex: 1;
